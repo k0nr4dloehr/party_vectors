@@ -1,0 +1,127 @@
+{
+  "source_files": {
+    "workbook": "data\\human_annotation\\annotators all.xlsx",
+    "gold": "data\\human_annotation\\gold.csv"
+  },
+  "items_scored": 60,
+  "raters": [
+    "human_score_1",
+    "human_score_2",
+    "human_score_3",
+    "human_score"
+  ],
+  "score_range": [
+    1,
+    10
+  ],
+  "score_histogram_all_human_cells": {
+    "1": 59,
+    "2": 17,
+    "3": 15,
+    "4": 12,
+    "5": 14,
+    "6": 24,
+    "7": 27,
+    "8": 42,
+    "9": 24,
+    "10": 6
+  },
+  "judge_histogram": {
+    "1": 22,
+    "2": 6,
+    "3": 1,
+    "4": 1,
+    "5": 3,
+    "6": 5,
+    "7": 3,
+    "8": 11,
+    "9": 8,
+    "10": 0
+  },
+  "primary": {
+    "metric": "quadratic_weighted_cohen_kappa",
+    "point_estimate": 0.70141216719291,
+    "ci_low": 0.5860199998666975,
+    "ci_high": 0.7843915240997592,
+    "n_bootstrap": 1000,
+    "seed": 42
+  },
+  "pairwise_quadratic": [
+    {
+      "pair": "human_score_1--human_score_2",
+      "kappa": 0.6541581246100365,
+      "n": 60
+    },
+    {
+      "pair": "human_score_1--human_score_3",
+      "kappa": 0.765961262553802,
+      "n": 60
+    },
+    {
+      "pair": "human_score_1--human_score",
+      "kappa": 0.8436828995963239,
+      "n": 60
+    },
+    {
+      "pair": "human_score_2--human_score_3",
+      "kappa": 0.539208501282521,
+      "n": 60
+    },
+    {
+      "pair": "human_score_2--human_score",
+      "kappa": 0.644452548090072,
+      "n": 60
+    },
+    {
+      "pair": "human_score_3--human_score",
+      "kappa": 0.7610096670247046,
+      "n": 60
+    }
+  ],
+  "sensitivity_mean_by_method": {
+    "nominal": 0.20595768981526708,
+    "linear": 0.5349553888101538
+  },
+  "judge_vs_human_mean": {
+    "quadratic_rounded_human_mean": 0.8326207586646047,
+    "linear_rounded_human_mean": 0.6520618556701031,
+    "nominal_rounded_human_mean": 0.22204213938411677,
+    "n_items": 60,
+    "pearson_r_continuous": 0.8704668478635584,
+    "mae_continuous": 1.2041666666666666
+  },
+  "descriptive": {
+    "exact_agreement": [
+      0.35,
+      0.26666666666666666,
+      0.4,
+      0.23333333333333334,
+      0.36666666666666664,
+      0.25
+    ],
+    "within_1_point": [
+      0.5833333333333334,
+      0.4666666666666667,
+      0.7333333333333333,
+      0.55,
+      0.6333333333333333,
+      0.55
+    ],
+    "mean_abs_diff": [
+      1.6666666666666667,
+      1.6166666666666667,
+      1.1333333333333333,
+      2.05,
+      1.6333333333333333,
+      1.55
+    ],
+    "n_shared_items": [
+      60,
+      60,
+      60,
+      60,
+      60,
+      60
+    ]
+  }
+}

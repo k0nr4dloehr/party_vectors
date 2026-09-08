@@ -1,0 +1,11 @@
+torch
+transformers>=4.45
+accelerate
+bitsandbytes
+pandas
+openpyxl
+tqdm
+openai>=1.0
+matplotlib>=3.8
+seaborn>=0.13
+pytest>=8.0

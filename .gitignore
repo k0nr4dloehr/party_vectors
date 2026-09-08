@@ -1,0 +1,36 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.venv/
+venv/
+
+# Checkpoints and logs (generated, not released)
+checkpoints_new/
+logs/
+smoke_artifacts/
+
+# LaTeX build artifacts (paper/)
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.fdb_latexmk
+*.fls
+*.log
+*.out
+*.synctex.gz
+*.toc
+*.lof
+*.lot
+*.nav
+*.snm
+*.vrb
+*.run.xml
+*-blx.bib
+preview-*.png
+
+# OS
+.DS_Store
+Thumbs.db

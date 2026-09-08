@@ -1,0 +1,14 @@
+{
+  "alpha": 0.5,
+  "layer": 29,
+  "phase3_fingerprint": "546c733e48d4a9efd60f799375462159bbf99c427b353dfa2dec111158c3ef29",
+  "schema_version": 3,
+  "selection_ci_high": 0.631578947368421,
+  "selection_ci_low": -0.14035087719298245,
+  "selection_mean_delta": 0.22807017543859648,
+  "selection_n_pairs": 57,
+  "selection_set_is_final_holdout": false,
+  "selection_split": "selection",
+  "split_manifest": "data/thesis_split_manifest.csv",
+  "target_party_key": "DIE_LINKE"
+}

@@ -1,0 +1,14 @@
+{
+  "alpha": 0.0,
+  "layer": 30,
+  "phase3_fingerprint": "414dc295147922b8840a3810710fcd7592ca370a8836db37a79ffd9130d6a11a",
+  "schema_version": 3,
+  "selection_ci_high": 0.0,
+  "selection_ci_low": 0.0,
+  "selection_mean_delta": 0.0,
+  "selection_n_pairs": 57,
+  "selection_set_is_final_holdout": false,
+  "selection_split": "selection",
+  "split_manifest": "data/thesis_split_manifest.csv",
+  "target_party_key": "GRUENE"
+}

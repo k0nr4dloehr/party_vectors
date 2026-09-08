@@ -1,0 +1,14 @@
+{
+  "alpha": 0.0,
+  "layer": 19,
+  "phase3_fingerprint": "221d48e8dc1d27ee307af31836707498b3254c50d9a74f452822a9fcb58ce78d",
+  "schema_version": 3,
+  "selection_ci_high": 0.0,
+  "selection_ci_low": 0.0,
+  "selection_mean_delta": 0.0,
+  "selection_n_pairs": 57,
+  "selection_set_is_final_holdout": false,
+  "selection_split": "selection",
+  "split_manifest": "data/thesis_split_manifest.csv",
+  "target_party_key": "SPD"
+}

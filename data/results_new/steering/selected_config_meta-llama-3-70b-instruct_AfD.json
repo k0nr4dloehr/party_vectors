@@ -1,0 +1,14 @@
+{
+  "alpha": 8.0,
+  "layer": 46,
+  "phase3_fingerprint": "d84dbc81ae273e355c8175d2f4ae9a727ede6b718106f02d7031a6beb0cc34c8",
+  "schema_version": 3,
+  "selection_ci_high": 1.7894736842105263,
+  "selection_ci_low": -0.018421052631578897,
+  "selection_mean_delta": 0.9298245614035088,
+  "selection_n_pairs": 57,
+  "selection_set_is_final_holdout": false,
+  "selection_split": "selection",
+  "split_manifest": "data/thesis_split_manifest.csv",
+  "target_party_key": "AfD"
+}

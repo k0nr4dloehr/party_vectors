@@ -1,0 +1,68 @@
+{
+  "config": {
+    "max_theses": 130,
+    "seed": 42,
+    "include_phase1": true
+  },
+  "coverage": {
+    "n_items": 171,
+    "n_theses": 114,
+    "n_models": 8,
+    "theses_by_split": {
+      "selection": 114,
+      "train": 57
+    },
+    "theses_by_election": {
+      "EU24": 38,
+      "BT25": 38,
+      "BT21": 38
+    },
+    "items_by_model": {
+      "meta-llama-3-70b-instruct": 40,
+      "meta-llama-3-8b-instruct": 23,
+      "qwen3-8b": 21,
+      "ministral-8b-instruct-2410": 20,
+      "deepseek-llm-7b-chat": 20,
+      "gemma-4-e4b-it": 17,
+      "llama-3-2-1b-instruct": 16,
+      "llama-3-2-3b-instruct": 14
+    },
+    "items_by_condition": {
+      "steered": 57,
+      "unsteered": 57,
+      "party_prompted": 57
+    },
+    "items_by_compared_party": {
+      "DIE_LINKE": 38,
+      "SPD": 36,
+      "GRUENE": 35,
+      "AfD": 33,
+      "CDU_CSU": 29
+    },
+    "items_by_steered_party": {
+      "None": 114,
+      "SPD": 12,
+      "AfD": 12,
+      "DIE_LINKE": 11,
+      "GRUENE": 11,
+      "CDU_CSU": 11
+    },
+    "items_by_score_bin": {
+      "low_1_3": 84,
+      "high_8_10": 46,
+      "mid_4_7": 41
+    },
+    "items_by_topic": {
+      "economy_tax_social": 52,
+      "climate_energy_transport": 25,
+      "democracy_governance_eu": 24,
+      "rights_society_religion": 22,
+      "security_foreign_defence": 21,
+      "migration_citizenship": 18,
+      "other_public_policy": 6,
+      "education_science_health": 3
+    },
+    "llm_score_mean": 4.280701754385965,
+    "llm_score_std": 3.099260726592784
+  }
+}

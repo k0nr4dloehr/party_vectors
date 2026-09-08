@@ -1,0 +1,14 @@
+{
+  "alpha": 0.5,
+  "layer": 25,
+  "phase3_fingerprint": "f263435093d8549f2e0cffdf5772da9cb1eeb53f5e893fd0eca94231d496e25d",
+  "schema_version": 3,
+  "selection_ci_high": 0.7719298245614035,
+  "selection_ci_low": -0.14035087719298245,
+  "selection_mean_delta": 0.2982456140350877,
+  "selection_n_pairs": 57,
+  "selection_set_is_final_holdout": false,
+  "selection_split": "selection",
+  "split_manifest": "data/thesis_split_manifest.csv",
+  "target_party_key": "CDU_CSU"
+}

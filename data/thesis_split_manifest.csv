@@ -1,0 +1,115 @@
+thesis_key,election_id,thesis_nr,major_topic,topic_group,split,title,thesis
+BT21::1,BT21,1,climate_energy_transport,speed_limit,train,Tempolimit auf Autobahnen,Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+BT21::2,BT21,2,security_foreign_defence,defence_investment,train,Erhöhung der Verteidigungsausgaben,Deutschland soll seine Verteidigungsausgaben erhöhen.
+BT21::3,BT21,3,democracy_governance_eu,singleton_BT21::3,selection,Wählen ab 16,Bei Bundestagswahlen sollen auch Jugendliche ab 16 Jahren wählen dürfen.
+BT21::4,BT21,4,climate_energy_transport,renewable_support,selection,Windenergie,Die Förderung von Windenergie soll beendet werden.
+BT21::5,BT21,5,economy_tax_social,rent_controls,train,Begrenzung für Mieterhöhungen,"Die Möglichkeiten der Vermieterinnen und Vermieter, Wohnungsmieten zu erhöhen, sollen gesetzlich stärker begrenzt werden."
+BT21::6,BT21,6,education_science_health,singleton_BT21::6,selection,Patentschutz für Impfstoffe,Impfstoffe gegen Covid-19 sollen weiterhin durch Patente geschützt sein.
+BT21::7,BT21,7,climate_energy_transport,singleton_BT21::7,train,Ausstieg aus der Kohleverstromung,Der für das Jahr 2038 geplante Ausstieg aus der Kohleverstromung soll vorgezogen werden.
+BT21::8,BT21,8,economy_tax_social,universal_social_insurance,selection,Gesetzliche Rentenversicherung,Alle Erwerbstätigen sollen in der gesetzlichen Rentenversicherung versichert sein müssen.
+BT21::9,BT21,9,migration_citizenship,singleton_BT21::9,train,Abschaffung des Familiennachzugs,Das Recht anerkannter Flüchtlinge auf Familiennachzug soll abgeschafft werden.
+BT21::10,BT21,10,economy_tax_social,singleton_BT21::10,selection,Steuer auf digitale Dienstleistungen,"Auf den Umsatz, der in Deutschland mit digitalen Dienstleistungen erzielt wird, soll eine nationale Steuer erhoben werden."
+BT21::11,BT21,11,rights_society_religion,traditional_family_tax_privilege,selection,Traditionelle Familie,"Die traditionelle Familie aus Vater, Mutter und Kindern soll stärker als andere Lebensgemeinschaften gefördert werden."
+BT21::12,BT21,12,economy_tax_social,singleton_BT21::12,train,Parteispenden,Spenden von Unternehmen an Parteien sollen weiterhin erlaubt sein.
+BT21::13,BT21,13,economy_tax_social,student_aid_means_test,selection,Elternunabhängiges BAföG,Studentinnen und Studenten sollen BAföG unabhängig vom Einkommen ihrer Eltern erhalten.
+BT21::14,BT21,14,migration_citizenship,dual_citizenship,train,Doppelte Staatsbürgerschaft,"In Deutschland soll es generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben."
+BT21::15,BT21,15,rights_society_religion,gender_identity_recognition,train,Sprachliche Berücksichtigung von Geschlechtsidentitäten,Bundesbehörden sollen in ihren Veröffentlichungen unterschiedliche Geschlechtsidentitäten sprachlich berücksichtigen.
+BT21::16,BT21,16,security_foreign_defence,singleton_BT21::16,selection,Nord Stream 2,"Die Ostsee-Pipeline ""Nord Stream 2"", die Gas von Russland nach Deutschland transportiert, soll wie geplant in Betrieb gehen dürfen."
+BT21::17,BT21,17,economy_tax_social,singleton_BT21::17,train,Abschaffung des Solidaritätszuschlags,Der Solidaritätszuschlag soll vollständig abgeschafft werden.
+BT21::18,BT21,18,rights_society_religion,singleton_BT21::18,selection,Kopftuch im Dienst,Das Tragen eines Kopftuchs soll Beamtinnen im Dienst generell erlaubt sein.
+BT21::19,BT21,19,climate_energy_transport,combustion_engines,selection,Verbrennungsmotor,Die Zulassung von neuen Autos mit Verbrennungsmotor soll auch langfristig möglich sein.
+BT21::20,BT21,20,democracy_governance_eu,federal_school_authority,selection,Schulpolitik,Der Bund soll mehr Zuständigkeiten in der Schulpolitik erhalten.
+BT21::21,BT21,21,rights_society_religion,anti_extremism_funding,train,Antisemitismus,Der Bund soll Projekte zur Bekämpfung des Antisemitismus stärker finanziell unterstützen.
+BT21::22,BT21,22,security_foreign_defence,foreign_critical_infrastructure,selection,Aufträge an chinesische Firmen,Chinesische Firmen sollen keine Aufträge für den Ausbau der Kommunikationsinfrastruktur in Deutschland erhalten dürfen.
+BT21::23,BT21,23,economy_tax_social,singleton_BT21::23,train,Kirchensteuer,Der Staat soll weiterhin für Religionsgemeinschaften die Kirchensteuer einziehen.
+BT21::24,BT21,24,rights_society_religion,singleton_BT21::24,selection,Verkauf von Cannabis,Der kontrollierte Verkauf von Cannabis soll generell erlaubt sein.
+BT21::25,BT21,25,democracy_governance_eu,euroscepticism_currency,train,Austritt aus der EU,Deutschland soll aus der Europäischen Union austreten.
+BT21::26,BT21,26,rights_society_religion,gender_balanced_lists,selection,Frauen und Männer auf Landeslisten,Die Landeslisten der Parteien für die Wahlen zum Deutschen Bundestag sollen abwechselnd mit Frauen und Männern besetzt werden müssen.
+BT21::27,BT21,27,education_science_health,singleton_BT21::27,train,Abrechnung über Fallpauschalen,Stationäre Behandlungen im Krankenhaus sollen weiterhin über eine Fallpauschale abgerechnet werden.
+BT21::28,BT21,28,economy_tax_social,singleton_BT21::28,selection,Steuer auf hohe Vermögen,Auf hohe Vermögen soll wieder eine Steuer erhoben werden.
+BT21::29,BT21,29,security_foreign_defence,automated_face_recognition,train,Gesichtserkennung bei Videoüberwachung,Bei der Videoüberwachung öffentlicher Plätze soll Gesichtserkennungssoftware eingesetzt werden dürfen.
+BT21::30,BT21,30,economy_tax_social,traditional_family_tax_privilege,selection,Ehepaare ohne Kinder,Auch Ehepaare ohne Kinder sollen weiterhin steuerlich begünstigt werden.
+BT21::31,BT21,31,economy_tax_social,organic_agriculture,train,Ökologische Landwirtschaft,Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+BT21::32,BT21,32,rights_society_religion,singleton_BT21::32,train,Islamische Verbände,Islamische Verbände sollen als Religionsgemeinschaften staatlich anerkannt werden können.
+BT21::33,BT21,33,other_public_policy,carbon_pricing,train,Anstieg des CO2-Preises,Der staatlich festgelegte Preis für den Ausstoß von CO2 beim Heizen und Autofahren soll stärker steigen als geplant.
+BT21::34,BT21,34,economy_tax_social,debt_brake,selection,Schuldenbremse,Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+BT21::35,BT21,35,migration_citizenship,restrictive_asylum_processing,selection,Asyl nur für politisch Verfolgte,Asyl soll weiterhin nur politisch Verfolgten gewährt werden.
+BT21::36,BT21,36,economy_tax_social,minimum_wage,selection,Erhöhung des Mindestlohns,Der gesetzliche Mindestlohn soll spätestens im Jahr 2022 auf mindestens 12 Euro erhöht werden.
+BT21::37,BT21,37,climate_energy_transport,aviation_tax,train,Besteuerung des Flugverkehrs,Der Flugverkehr soll höher besteuert werden.
+BT21::38,BT21,38,economy_tax_social,singleton_BT21::38,train,Homeoffice,"Unternehmen sollen selbst entscheiden, ob sie ihren Beschäftigten das Arbeiten im Homeoffice erlauben."
+BT25::1,BT25,1,security_foreign_defence,ukraine_weapons,selection,Unterstützung der Ukraine,Deutschland soll die Ukraine weiterhin militärisch unterstützen.
+BT25::2,BT25,2,climate_energy_transport,renewable_support,selection,Erneuerbare Energien,Der Ausbau erneuerbarer Energien soll weiterhin vom Staat finanziell gefördert werden.
+BT25::3,BT25,3,economy_tax_social,singleton_BT25::3,selection,Streichung des Bürgergelds,"Das Bürgergeld soll denjenigen gestrichen werden, die wiederholt Stellenangebote ablehnen."
+BT25::4,BT25,4,climate_energy_transport,speed_limit,train,Tempolimit auf Autobahnen,Auf allen Autobahnen soll ein generelles Tempolimit gelten.
+BT25::5,BT25,5,migration_citizenship,restrictive_asylum_processing,selection,Abweisung Asylsuchender,"Asylsuchende, die über einen anderen EU-Staat eingereist sind, sollen an den deutschen Grenzen abgewiesen werden."
+BT25::6,BT25,6,economy_tax_social,rent_controls,train,Begrenzung der Mietpreise,Bei Neuvermietungen sollen die Mietpreise weiterhin gesetzlich begrenzt werden.
+BT25::7,BT25,7,security_foreign_defence,automated_face_recognition,train,Automatisierte Gesichtserkennung,An Bahnhöfen soll die Bundespolizei Software zur automatisierten Gesichtserkennung einsetzen dürfen.
+BT25::8,BT25,8,climate_energy_transport,singleton_BT25::8,selection,Energieintensive Unternehmen,Energieintensive Unternehmen sollen vom Staat einen finanziellen Ausgleich für ihre Stromkosten erhalten.
+BT25::9,BT25,9,economy_tax_social,singleton_BT25::9,train,Rente nach 40 Beitragsjahren,Alle Beschäftigten sollen bereits nach 40 Beitragsjahren ohne Abschläge in Rente gehen können.
+BT25::10,BT25,10,rights_society_religion,singleton_BT25::10,train,Grundgesetz,Im einleitenden Satz des Grundgesetzes soll weiterhin die Formulierung „Verantwortung vor Gott“ stehen.
+BT25::11,BT25,11,migration_citizenship,skilled_immigration,train,Anwerbung von Fachkräften,Deutschland soll weiterhin die Anwerbung von Fachkräften aus dem Ausland fördern.
+BT25::12,BT25,12,climate_energy_transport,nuclear_power,selection,Nutzung der Kernenergie,Für die Stromerzeugung soll Deutschland wieder Kernenergie nutzen.
+BT25::13,BT25,13,economy_tax_social,singleton_BT25::13,train,Anhebung des Spitzensteuersatzes,Bei der Besteuerung von Einkommen soll der Spitzensteuersatz angehoben werden.
+BT25::14,BT25,14,democracy_governance_eu,federal_school_authority,selection,Kompetenzen in der Schulpolitik,Der Bund soll mehr Kompetenzen in der Schulpolitik erhalten.
+BT25::15,BT25,15,security_foreign_defence,singleton_BT25::15,train,Rüstungsexporte nach Israel,Aus Deutschland sollen weiterhin Rüstungsgüter nach Israel exportiert werden dürfen.
+BT25::16,BT25,16,economy_tax_social,universal_social_insurance,selection,Krankenkassen,Alle Bürgerinnen und Bürger sollen in gesetzlichen Krankenkassen versichert sein müssen.
+BT25::17,BT25,17,economy_tax_social,singleton_BT25::17,selection,Abschaffung der Frauenquote,Die gesetzliche Frauenquote in Vorständen und Aufsichtsräten börsennotierter Unternehmen soll abgeschafft werden.
+BT25::18,BT25,18,economy_tax_social,organic_agriculture,train,Ökologische Landwirtschaft,Ökologische Landwirtschaft soll stärker gefördert werden als konventionelle Landwirtschaft.
+BT25::19,BT25,19,rights_society_religion,anti_extremism_funding,train,Projekte gegen Rechtsextremismus,Der Bund soll Projekte gegen Rechtsextremismus verstärkt fördern.
+BT25::20,BT25,20,economy_tax_social,singleton_BT25::20,train,Kontrolle von Zulieferern,Unternehmen sollen weiterhin die Einhaltung der Menschenrechte und des Umweltschutzes bei allen Zulieferern kontrollieren müssen.
+BT25::21,BT25,21,economy_tax_social,student_aid_means_test,selection,Elternabhängiges BAföG,Die Ausbildungsförderung BAföG soll weiterhin abhängig vom Einkommen der Eltern gezahlt werden.
+BT25::22,BT25,22,economy_tax_social,debt_brake,selection,Schuldenbremse,Die Schuldenbremse im Grundgesetz soll beibehalten werden.
+BT25::23,BT25,23,migration_citizenship,singleton_BT25::23,selection,Arbeitserlaubnis für Asylsuchende,Asylsuchende sollen in Deutschland sofort nach ihrer Antragstellung eine Arbeitserlaubnis erhalten.
+BT25::24,BT25,24,climate_energy_transport,climate_neutrality_target,train,Verwerfen der Klimaziele,"Deutschland soll das Ziel verwerfen, klimaneutral zu werden."
+BT25::25,BT25,25,economy_tax_social,singleton_BT25::25,selection,35-Stunden-Woche,In Deutschland soll die 35-Stunden-Woche als gesetzliche Regelarbeitszeit für alle Beschäftigten festgelegt werden.
+BT25::26,BT25,26,rights_society_religion,abortion_law,selection,Schwangerschaftsabbruch nach Beratung,Schwangerschaftsabbrüche sollen in den ersten drei Monaten weiterhin nur nach Beratung straffrei sein.
+BT25::27,BT25,27,democracy_governance_eu,euroscepticism_currency,train,Nationale Währung,Der Euro soll in Deutschland durch eine nationale Währung ersetzt werden.
+BT25::28,BT25,28,climate_energy_transport,singleton_BT25::28,selection,Schiene vor Straße,Beim Ausbau der Verkehrsinfrastruktur soll die Schiene Vorrang vor der Straße haben.
+BT25::29,BT25,29,economy_tax_social,singleton_BT25::29,train,Ehrenamt,Ehrenamtliche Tätigkeiten sollen auf die zukünftige Rente angerechnet werden.
+BT25::30,BT25,30,economy_tax_social,singleton_BT25::30,train,Umlegung der Grundsteuer,Die Grundsteuer soll weiterhin auf Mieterinnen und Mieter umgelegt werden dürfen.
+BT25::31,BT25,31,economy_tax_social,singleton_BT25::31,selection,Einschränkung des Streikrechts,Das Streikrecht für Beschäftigte in Unternehmen der kritischen Infrastruktur soll gesetzlich eingeschränkt werden.
+BT25::32,BT25,32,democracy_governance_eu,direct_democratic_participation,selection,Volksentscheide,In Deutschland soll es auf Bundesebene Volksentscheide geben können.
+BT25::33,BT25,33,rights_society_religion,singleton_BT25::33,train,Strafrecht für unter 14-Jährige,Unter 14-Jährige sollen strafrechtlich belangt werden können.
+BT25::34,BT25,34,security_foreign_defence,china_ev_tariffs,selection,Abschaffung von Zöllen,Deutschland soll sich für die Abschaffung der erhöhten EU-Zölle auf chinesische Elektroautos einsetzen.
+BT25::35,BT25,35,migration_citizenship,dual_citizenship,train,Zweite Staatsbürgerschaft,"In Deutschland soll es weiterhin generell möglich sein, neben der deutschen eine zweite Staatsbürgerschaft zu haben."
+BT25::36,BT25,36,other_public_policy,singleton_BT25::36,selection,Soziales Pflichtjahr,Für junge Erwachsene soll ein soziales Pflichtjahr eingeführt werden.
+BT25::37,BT25,37,climate_energy_transport,singleton_BT25::37,train,Fossile Brennstoffe,Neue Heizungen sollen auch zukünftig vollständig mit fossilen Brennstoffen (z. B. Gas oder Öl) betrieben werden dürfen.
+BT25::38,BT25,38,economy_tax_social,minimum_wage,selection,Erhöhung des Mindestlohns,Der gesetzliche Mindestlohn soll spätestens 2026 auf 15 Euro erhöht werden.
+EU24::1,EU24,1,economy_tax_social,singleton_EU24::1,selection,EU-Steuern,Die EU soll eigene Steuern erheben dürfen.
+EU24::2,EU24,2,climate_energy_transport,combustion_engines,selection,Verbrennungsmotoren,Fahrzeuge mit Verbrennungsmotoren sollen auch nach 2035 in der EU neu zugelassen werden können.
+EU24::3,EU24,3,migration_citizenship,singleton_EU24::3,selection,Seenotrettung,Die EU soll eine eigene Seenotrettung im Mittelmeer aufbauen.
+EU24::4,EU24,4,security_foreign_defence,singleton_EU24::4,selection,EU-Mitgliedschaft der Ukraine,Die Ukraine soll Mitglied der EU werden.
+EU24::5,EU24,5,economy_tax_social,organic_agriculture,train,Ökologische Landwirtschaft,Die EU soll vorrangig ökologische Landwirtschaft fördern.
+EU24::6,EU24,6,democracy_governance_eu,euroscepticism_currency,train,Nationale Währung,In Deutschland soll der Euro durch eine nationale Währung ersetzt werden.
+EU24::7,EU24,7,rights_society_religion,gender_identity_recognition,train,Geschlechtsidentität im Pass,"Die EU soll den Mitgliedstaaten empfehlen, außer „weiblich“ und „männlich“ auch die Eintragung einer anderen Geschlechtsidentität im Pass zu ermöglichen."
+EU24::8,EU24,8,other_public_policy,singleton_EU24::8,train,Jagd auf Wölfe,"Die Jagd auf Wölfe soll in Regionen erlaubt sein, in denen der Bestand dadurch nicht gefährdet ist."
+EU24::9,EU24,9,climate_energy_transport,singleton_EU24::9,train,Photovoltaik für Wohngebäude,Beim Bau neuer Wohngebäude in der EU soll die Errichtung von Photovoltaikanlagen verpflichtend sein.
+EU24::10,EU24,10,democracy_governance_eu,singleton_EU24::10,train,Außenpolitische Entscheidungen,Mehr außenpolitische Entscheidungen der EU sollen mit Mehrheit statt einstimmig getroffen werden.
+EU24::11,EU24,11,climate_energy_transport,aviation_tax,train,Flugzeugtreibstoff,Der Flugzeugtreibstoff Kerosin soll für Flüge in der EU steuerfrei sein.
+EU24::12,EU24,12,security_foreign_defence,singleton_EU24::12,train,Europol,Die gemeinsame europäische Polizeibehörde Europol soll weitere Befugnisse erhalten.
+EU24::13,EU24,13,democracy_governance_eu,singleton_EU24::13,train,Öffentlich-rechtlicher Rundfunk,"Die EU soll länderübergreifende, mehrsprachige Angebote des öffentlich-rechtlichen Rundfunks stärker finanziell fördern."
+EU24::14,EU24,14,climate_energy_transport,climate_neutrality_target,train,Verwerfen der Klimaziele,"Die EU soll das Ziel verwerfen, klimaneutral zu werden."
+EU24::15,EU24,15,rights_society_religion,gender_balanced_lists,selection,Geschlechteranteil auf Wahllisten,"Bei den Wahlen zum Europäischen Parlament sollen die Parteien weiterhin frei entscheiden können, wie groß der Anteil der Geschlechter auf ihren Listen ist."
+EU24::16,EU24,16,economy_tax_social,singleton_EU24::16,train,Soziale Grundsicherung,Die EU soll Vorgaben für die Höhe der sozialen Grundsicherung in den Mitgliedstaaten machen.
+EU24::17,EU24,17,rights_society_religion,singleton_EU24::17,train,Desinformation in sozialen Netzwerken,"Betreiber sozialer Netzwerke sollen frei entscheiden dürfen, wie sie mit Desinformation auf ihren Plattformen umgehen."
+EU24::18,EU24,18,democracy_governance_eu,singleton_EU24::18,train,Naturschutzgebiete,In der EU sollen mehr Flächen als Naturschutzgebiete ausgewiesen werden.
+EU24::19,EU24,19,democracy_governance_eu,singleton_EU24::19,selection,Regeln und Werte der EU,"EU-Fördermittel für Mitgliedstaaten, die Regeln und Werte der EU verletzen, sollen weiterhin zurückgehalten werden."
+EU24::20,EU24,20,security_foreign_defence,ukraine_weapons,selection,Waffen für die Ukraine,Die EU soll mehr Waffen für die Ukraine finanzieren.
+EU24::21,EU24,21,economy_tax_social,singleton_EU24::21,selection,Senkung der Fischfangquoten,"Die zulässige Menge an Fischen, die in EU-Gewässern gefangen werden dürfen, soll gesenkt werden."
+EU24::22,EU24,22,security_foreign_defence,china_ev_tariffs,selection,Einfuhrzölle auf Elektroautos,Die Einfuhrzölle der EU auf chinesische Elektroautos sollen erhöht werden.
+EU24::23,EU24,23,rights_society_religion,abortion_law,selection,Schwangerschaftsabbrüche,"Die EU soll sich dafür einsetzen, dass Schwangerschaftsabbrüche in allen Mitgliedstaaten straffrei möglich sind."
+EU24::24,EU24,24,migration_citizenship,singleton_EU24::24,selection,Dauerhafte Grenzkontrollen,Es sollen wieder dauerhafte Grenzkontrollen zwischen den Mitgliedstaaten der EU stattfinden.
+EU24::25,EU24,25,democracy_governance_eu,direct_democratic_participation,selection,Volksabstimmung bei neuen Mitgliedern,Die Aufnahme neuer Staaten in die EU soll in allen Mitgliedstaaten durch Volksabstimmungen bestätigt werden müssen.
+EU24::26,EU24,26,democracy_governance_eu,singleton_EU24::26,train,Gentechnisch veränderte Pflanzen,Die EU soll den Anbau von weiteren gentechnisch veränderten Pflanzensorten erlauben.
+EU24::27,EU24,27,migration_citizenship,singleton_EU24::27,train,Gewalt gegen Frauen,Geschlechtsspezifische Gewalt gegen Frauen soll europaweit als Asylgrund anerkannt werden.
+EU24::28,EU24,28,democracy_governance_eu,singleton_EU24::28,selection,Urheberschutz,"Urheberrechtlich geschützte Werke (z.B. Fotos, Musik, Literatur) sollen in der EU für nicht-kommerzielle Zwecke kostenlos verwendet werden dürfen."
+EU24::29,EU24,29,security_foreign_defence,singleton_EU24::29,train,Abbau der Sanktionen gegen Russland,Die Sanktionen der EU gegen Russland sollen abgebaut werden.
+EU24::30,EU24,30,other_public_policy,singleton_EU24::30,selection,Erasmus+ Stipendium,"Das Erasmus+ Stipendium für Auslandsaufenthalte soll für Studierende, die über weniger finanzielle Mittel verfügen, höher sein."
+EU24::31,EU24,31,climate_energy_transport,nuclear_power,selection,Atomkraft,Die EU soll Atomkraft weiterhin als nachhaltige Energiequelle einstufen.
+EU24::32,EU24,32,migration_citizenship,skilled_immigration,train,Einwanderung von Fachkräften,Die Einwanderung von Fachkräften in die EU soll vereinfacht werden.
+EU24::33,EU24,33,economy_tax_social,foreign_critical_infrastructure,selection,Kritische Infrastruktur,Die Beteiligung außereuropäischer Investoren an Unternehmen im Bereich kritischer Infrastruktur soll in der EU stärker beschränkt werden.
+EU24::34,EU24,34,democracy_governance_eu,direct_democratic_participation,selection,Direktwahl,Der Präsident bzw. die Präsidentin der Europäischen Kommission soll von den Bürgerinnen und Bürgern direkt gewählt werden.
+EU24::35,EU24,35,economy_tax_social,carbon_pricing,train,Preis für den Ausstoß von CO₂,In der EU sollen Unternehmen mehr für den Ausstoß von CO₂ zahlen müssen.
+EU24::36,EU24,36,migration_citizenship,restrictive_asylum_processing,selection,Asylanträge an der EU-Außengrenze,Asylbewerberinnen und -bewerber sollen ihren Antrag vor Überschreiten der EU-Außengrenze stellen müssen und dort auf das Ergebnis warten.
+EU24::37,EU24,37,security_foreign_defence,defence_investment,train,EU-Rüstungsprojekte,Die EU soll weiterhin in gemeinsame europäische Rüstungsprojekte investieren.
+EU24::38,EU24,38,democracy_governance_eu,singleton_EU24::38,train,Rolle des EU-Parlaments,Das Europäische Parlament soll weiterhin eine zentrale Rolle in der EU spielen.
