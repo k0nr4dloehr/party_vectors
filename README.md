@@ -1,7 +1,7 @@
 # Party Vectors: Are Political Parties Represented as Linear Directions in Activation Space?
 
 Code and data accompanying the paper *"Party Vectors: Are Political Parties
-Represented as Linear Directions in Activation Space?"*.
+Represented as Linear Directions in Activation Space?"*
 
 This repository contains the pipeline that extracts per-party steering
 vectors from the residual streams of eight open-weight instruction-tuned
@@ -10,21 +10,39 @@ generation, and validates the LLM judge against human annotators. All raw
 per-thesis results and the fixed train/selection split are included, so every
 number in the paper can be recomputed from the released data.
 
+## Status
+
+This is the public companion repository to the paper, published under a
+dual license (MIT for code, CC-BY-4.0 for data; see `LICENSE`). It is
+maintained at
+[https://github.com/k0nr4dloehr/party_vectors](https://github.com/k0nr4dloehr/party_vectors).
+
+The release is intentionally curated:
+
+- **Included**: the full data pipeline (`phase*.py`, `utils.py`), the fixed
+  split manifest, all released data (`data/`), the paper's figures and their
+  generation script (`figures/`), and diagnostic/plotting scripts (`viz/`).
+- **Not included**: the LaTeX sources of the paper, the Slurm cluster
+  scripts, the test suite, and the single-party case-study script. These are
+  internal to the research project and not part of this release.
+
 ## Repository layout
 
 ```
 party_vectors/
+├── LICENSE                       MIT (code) + CC-BY-4.0 (data)
+├── .gitignore
+├── requirements.txt
 ├── phase1_baseline.py            Phase 1: party-conditioned generation + similarity weighting
 ├── phase1_neutral_baseline.py    Neutral-conditioned baseline (provenance)
 ├── phase2_vectors.py             Phase 2: weighted party-vs-other-parties vector extraction
 ├── phase3_steering.py            Phase 3: judged open-ended generation sweep
 ├── phase3b_logit_probe.py        Phase 3b: judge-free logit probe (layer/alpha selection)
 ├── phase3_rejudge.py             Re-judge pass that fills NaN judge scores
-├── utils.py                      Shared helpers (data loading, judge client, hooks)
 ├── build_split_manifest.py       Provenance for the fixed train/selection split
 ├── analyze_iaa.py                Inter-annotator agreement analysis
 ├── sample_human_annotation.py    Annotation sample construction
-├── requirements.txt
+├── utils.py                      Shared helpers (data loading, judge client, hooks)
 ├── viz/                          Diagnostic and plotting scripts
 ├── figures/
 │   ├── make_paper_figures.py     Single source of truth for all paper figures
@@ -55,13 +73,17 @@ party_vectors/
   recording the extraction method and per-statement weights.
 - **`data/results_new/probe/`** — per-thesis logit-probe results
   (`margin_cong`, `p3_cong`, `argmax3_is_cong`, `top1_token`) for both
-  splits.
-- **`data/results_new/steering/`** — per-thesis judged generation results,
-  per-(layer, alpha) summaries with 95% bootstrap intervals, and the
-  selected configuration per model and party.
-- **`data/human_annotation/`** — the human-annotated sample (`gold.csv` with
-  LLM scores, `annotators all.xlsx` with human scores) used to validate the
-  LLM judge.
+  splits, one CSV per model and party.
+- **`data/results_new/steering/`** — per-thesis judged generation results
+  (`sweep_results_*.csv`), unsteered baselines (`alpha0_baseline_*.csv`),
+  per-(layer, alpha) summaries with 95% bootstrap intervals
+  (`sweep_summary/`), and the selected configuration per model and party
+  (`selected_config_*.json`).
+- **`data/human_annotation/`** — the human-annotated sample used to validate
+  the LLM judge: `gold.csv` (thesis items with LLM scores),
+  `annotator_items.csv/.xlsx` and `annotators all.xlsx` (human scores), and
+  the derived `coverage_report.json` and `iaa_report.json` (inter-annotator
+  agreement).
 
 ## Reproducing the paper's numbers
 
@@ -74,8 +96,8 @@ The figures referenced by the paper are written to `figures/paper/` and are
 included in this repository as both PDF and PNG.
 
 The judge-validation statistics (Section 7 of the paper) are recomputed from
-the annotation data by `paper/refresh_judge_stats.py` in the paper's source
-repository.
+the annotation data by `refresh_judge_stats.py` in the paper's source
+repository; the script is not part of this release.
 
 ## Running the pipeline
 
@@ -127,9 +149,9 @@ vector is added at every token position, `h ← h + α·v̂`.
   fingerprint of the run parameters; mismatched checkpoints are refused.
 - The split assignment is fixed and released; experiments read it and do not
   redraw it.
-- The paper's Section 7 (judge validation) is currently based on a pending
-  annotation set; the annotation data is included here and the recomputation
-  script lives with the paper sources.
+- The full judge-validation annotation set used for Section 7 of the paper
+  is included under `data/human_annotation/`; the recomputation script lives
+  with the paper sources.
 
 ## License
 
